@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+}
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../bg.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+    padding-right: 35rem;
+    height: 3rem;
+    background-color: black;
+
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(8, 8, 8);
+    padding: 5px 20px;
+    border: 0.3px solid white;
+    transition: 0.6s ease;
+    margin-left: 2.5rem;
+    
+}
+
+ul li.active a{
+    background-color:white;
+    color: black;
+    font-weight: bold;
+
+}
+
+ul li a:hover{
+    background-color:white;
+    color: black;
+    font-weight: bold;
+}
+
+.logo{
+    float: left;
+    color: blueviolet;
+    text-decoration: none;
+    margin: 2rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2.3rem;
+    margin-top: 0.2rem;
+
+}
+
+.logo img{
+    border-radius: 8rem;
+    height: 10rem;
+    width: 10rem;
+    margin-top: 0.5rem;
+    margin-left: 2rem;
+}
+
+.title{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.title h1{
+    color: blanchedalmond;
+    font-size: 70px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.title p{
+    color: white;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.button{
+    position: absolute;
+    top: 70%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    
+}
+
+.btn{
+    border: 0.5px solid rgb(0, 2, 0);
+    background-color: green;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 10px 60px ;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+
+.btn:hover{
+    background-color:rgb(10, 241, 10);
+    color: black;
+    font-weight: bold;
+}
+
+
+
+
